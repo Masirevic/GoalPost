@@ -147,6 +147,7 @@ extension GoalsVC {
         } catch {
             debugPrint("Could not fetch: \(error.localizedDescription)")
             completion(false)
+           // print("Fail")
         }
         
     }
