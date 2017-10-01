@@ -137,18 +137,36 @@
                                                     <color key="textColor" red="0.42745098040000001" green="0.73725490199999999" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMT-JW-vxB">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GOAL COMPLETE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tob-Mi-bt1">
+                                                            <rect key="frame" x="41" y="8" width="292" height="54"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.91764705879999997" green="0.66274509800000003" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Vjd-Yc-pgt" firstAttribute="leading" secondItem="9oF-gO-ViG" secondAttribute="trailing" constant="10" id="HCg-zo-wbW"/>
+                                                <constraint firstItem="EMT-JW-vxB" firstAttribute="top" secondItem="zS9-dq-6Vh" secondAttribute="top" id="K1b-Ow-O68"/>
+                                                <constraint firstAttribute="bottom" secondItem="EMT-JW-vxB" secondAttribute="bottom" id="Tyf-ig-shv"/>
                                                 <constraint firstItem="9oF-gO-ViG" firstAttribute="leading" secondItem="zS9-dq-6Vh" secondAttribute="leadingMargin" constant="8" id="UhB-nP-xgw"/>
+                                                <constraint firstItem="EMT-JW-vxB" firstAttribute="leading" secondItem="zS9-dq-6Vh" secondAttribute="leading" id="X02-xx-Uqk"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="9oF-gO-ViG" secondAttribute="bottom" constant="2" id="YpE-EK-eZ4"/>
                                                 <constraint firstItem="Vjd-Yc-pgt" firstAttribute="trailing" secondItem="zS9-dq-6Vh" secondAttribute="trailingMargin" constant="8" id="bko-rp-7O2"/>
+                                                <constraint firstAttribute="trailing" secondItem="EMT-JW-vxB" secondAttribute="trailing" id="pU7-Ur-rcO"/>
                                                 <constraint firstItem="9oF-gO-ViG" firstAttribute="top" secondItem="zS9-dq-6Vh" secondAttribute="topMargin" constant="2" id="qIY-JZ-Fkl"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Vjd-Yc-pgt" secondAttribute="bottom" constant="8" id="zFE-H9-rf8"/>
                                                 <constraint firstItem="Vjd-Yc-pgt" firstAttribute="top" secondItem="zS9-dq-6Vh" secondAttribute="topMargin" constant="8" id="zsJ-vz-pZK"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="completionView" destination="EMT-JW-vxB" id="oJI-Q3-o7z"/>
                                             <outlet property="goalDescriptionLbl" destination="vsm-gT-YAj" id="Hbq-tz-YTL"/>
                                             <outlet property="goalProgressLbl" destination="Vjd-Yc-pgt" id="e6k-m7-cGZ"/>
                                             <outlet property="goalTypeLbl" destination="xZ0-Zf-waQ" id="hw3-aq-sTU"/>
@@ -177,7 +195,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1690.4000000000001" y="-81.409295352323838"/>
+            <point key="canvasLocation" x="-2084" y="-76"/>
         </scene>
         <!--Create GoalVC-->
         <scene sceneID="ZR4-H5-WWR">
