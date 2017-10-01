@@ -19,6 +19,7 @@
 		888C18451F810CC200FF5D6D /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C18441F810CC200FF5D6D /* UIViewControllerExt.swift */; };
 		888C18471F8113A200FF5D6D /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C18461F8113A200FF5D6D /* UIViewExt.swift */; };
 		888C184B1F811BC000FF5D6D /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C184A1F811BC000FF5D6D /* UIButtonExt.swift */; };
+		888C184E1F81281500FF5D6D /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C184D1F81281500FF5D6D /* FinishGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		888C18441F810CC200FF5D6D /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		888C18461F8113A200FF5D6D /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		888C184A1F811BC000FF5D6D /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		888C184D1F81281500FF5D6D /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				8859E3D71F80D75F00C3EECD /* GoalsVC.swift */,
 				8859E3F21F81056B00C3EECD /* CreateGoalVC.swift */,
+				888C184D1F81281500FF5D6D /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				8859E3DE1F80D75F00C3EECD /* CoreDataApp.xcdatamodeld in Sources */,
 				888C18451F810CC200FF5D6D /* UIViewControllerExt.swift in Sources */,
 				888C184B1F811BC000FF5D6D /* UIButtonExt.swift in Sources */,
+				888C184E1F81281500FF5D6D /* FinishGoalVC.swift in Sources */,
 				8859E3D61F80D75F00C3EECD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
