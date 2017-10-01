@@ -86,11 +86,14 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9oF-gO-ViG">
                                                     <rect key="frame" x="16" y="10" width="307" height="49.5"/>
                                                     <subviews>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VeJ-G1-77u">
+                                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VeJ-G1-77u">
                                                             <rect key="frame" x="0.0" y="0.0" width="307" height="27.5"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Goal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHO-Gc-93x">
                                                                     <rect key="frame" x="0.0" y="0.0" width="55" height="27.5"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="55" id="Iko-bu-QaP"/>
+                                                                    </constraints>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
